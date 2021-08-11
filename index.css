@@ -85,6 +85,10 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  main {
+    min-height: 5350px;
+  }
+
   header {
     margin-top: 75px;
     margin-bottom: 56px;
@@ -98,5 +102,9 @@ a:hover {
   .blurb {
     padding: 32px;
     max-width: 74%;
+  }
+
+  .row {
+    min-height: 520px;
   }
 }
