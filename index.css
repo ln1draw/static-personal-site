@@ -94,6 +94,10 @@ a:hover {
     margin-bottom: 56px;
   }
 
+  header a {
+    text-decoration: none;
+  }
+
   h2 {
     max-width: 68%;
     margin: auto;
