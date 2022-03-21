@@ -1,20 +1,50 @@
 body {
-  background-color: #efbcb4;
+  background-color: #9ABAAD;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
 }
 
 header {
-  margin-top: 80px;
-  margin-bottom: 60px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+header.fixed {
+  position:  fixed;
+  top:  0;
+  left: 0;
+  width:  100%;
+  margin-top: 0px;
+  padding-bottom: 8px;
+  background-color: #9ABAAD;
+  border-bottom: 4px solid #001D4D;
+}
+
+header.fixed .header-img-wrapper {
+  display: none;
+}
+
+.header-img-wrapper {
+  display: block;
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+}
+
+.header-img {
+  max-width: 350px;
+  height: 200px;
+  border: 4px solid #001D4D;
+  border-radius: 64px;
+  background-color: #DDDDD5;
 }
 
 h1 {
   font-weight: 500;
-  font-size: 3em;
+  font-size: 2em;
   color: #363020;
-  margin-bottom: 0px;
   margin-top: 0px;
+  margin-bottom:  0px;
 }
 
 h2 {
@@ -29,7 +59,21 @@ h5 {
   font-weight: 600;
   font-size: 24px;
   margin: 0px;
-  color: #363020;
+  color: #001D4D;
+}
+
+h6 {
+  font-size: 1.2em;
+  color: #001D4D;
+  margin-bottom: 0px;
+}
+
+.body.fixed {
+  margin-top:  375px;
+}
+
+.active {
+  text-decoration: underline;
 }
 
 .blurb {
@@ -37,7 +81,7 @@ h5 {
   margin: auto;
   text-align: left;
   background-color: #faeeee;
-  border: 3px solid #363020;
+  border: 3px solid #001D4D;
   border-radius: 16px;
   padding: 64px;
   margin-bottom: 40px;
@@ -46,14 +90,17 @@ h5 {
 p {
   margin-bottom: 0px;
   margin-top: 20px;
+  color: #001D4D;
 }
 
 a {
-  color: #083D77;
+  color: #001D4D;
+  text-decoration: none;
 }
 
 a:hover {
-  color: #23022E;
+  color: #232534;
+  text-decoration: underline;
 }
 
 .img-wrapper {
